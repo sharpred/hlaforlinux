@@ -11,7 +11,7 @@ RUN gzip -d linux64.hla.tar.gz
 
 RUN tar xvf linux64.hla.tar
 
-RUN mkdir ./src /home/root
+RUN mkdir ./src
 
 WORKDIR ./src
 
