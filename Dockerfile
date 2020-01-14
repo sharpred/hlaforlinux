@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-MAINTAINER paulatsharpred
+MAINTAINER paulatstepup
 
 # pre-requisites
 RUN apt-get update && apt-get -y upgrade \
