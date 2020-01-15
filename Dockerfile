@@ -11,6 +11,7 @@ RUN gzip -d linux64.hla.tar.gz
 
 RUN tar xvf linux64.hla.tar
 
+# create a folder for source
 RUN mkdir ./src
 
 WORKDIR ./src
